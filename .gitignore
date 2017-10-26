@@ -1,0 +1,12 @@
+# Ignore everything...
+Package Control.*
+!Package Control.sublime-settings
+
+Color Highlighter
+
+# ... except preferences
+# !.gitignore
+# !Preferences.sublime-settings
+# !snippets/*
+# !*.sublime-commands
+# !*.py

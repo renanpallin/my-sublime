@@ -1,0 +1,15 @@
+<snippet>
+	<!-- @todo: transformar em um plugin e buscar o fieldset mais próximo -->
+	<content><![CDATA[
+\$form['${1}'] = [
+  '#type' => 'textfield',
+  '#title' => t('${2}'),
+  '#default_value' => variable_get('${1}', ''),
+  '#required' => true
+];
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AutoFileName",
+		"Babel",
+		"BracketHighlighter",
+		"Case Conversion",
+		"Color Highlighter",
+		"DocBlockr",
+		"EJS 2",
+		"Emmet",
+		"Git",
+		"Gitignore",
+		"JavaScript Completions",
+		"jQuery",
+		"JsFormat",
+		"JSHint",
+		"Material Theme",
+		"Package Control",
+		"Pretty JSON",
+		"Project Specific Syntax Settings",
+		"SCSS",
+		"SideBarEnhancements",
+		"Simple Import"
+	]
+}

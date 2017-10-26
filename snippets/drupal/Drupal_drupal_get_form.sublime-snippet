@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$form['${1}'] = [
+  '#type' => 'fieldset',
+  '#title' => t('${2}'),
+  '#collapsible' => true,
+  '#collapsed' => false
+];
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formfieldset</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
