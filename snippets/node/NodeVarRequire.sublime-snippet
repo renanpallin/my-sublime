@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-var ${1} = require("${1}");
+const ${1} = require("${1/([a-z]+)([A-Z]+)?/\L$1(?2-\L$2:)/g}");
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>require</tabTrigger>
