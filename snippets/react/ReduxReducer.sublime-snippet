@@ -1,0 +1,19 @@
+<snippet>
+	<!-- @todo: Transform to a plugin and iterate through import and cases -->
+	<content><![CDATA[
+import { ${1} } from '../actions';
+
+export default (state = [], action) => {
+	switch (action.type) {
+		case ${1}:
+			return action${1};
+		default:
+			return state;
+	}
+};
+]]></content>
+	Optional: Set a tabTrigger to define how to trigger the snippet
+	<tabTrigger>reducer</tabTrigger>
+	Optional: Set a scope to limit where the snippet will trigger
+	<scope>source.js</scope>
+</snippet>
