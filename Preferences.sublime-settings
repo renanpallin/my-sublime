@@ -30,11 +30,13 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Blade Snippets",
+		"Comments Aware Enter",
 		"Vintage"
 	],
 	"indent_guide_options":

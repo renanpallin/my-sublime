@@ -1,0 +1,38 @@
+<snippet>
+    <content><![CDATA[
+const router = require("express").Router();
+
+router.get('/', (req, res) => {
+
+    res.json([]);
+});
+
+router.get('/:id', (req, res) => {
+
+    res.json();
+});
+
+router.post('/', (req, res) => {
+
+    res.json();
+});
+
+router.put('/:id', (req, res) => {
+    const id = res.param.id;
+
+    res.json();
+});
+
+router.delete('/:id', (req, res) => {
+    const id = res.param.id;
+
+    res.json();
+});
+
+module.exports = router;
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>crud</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

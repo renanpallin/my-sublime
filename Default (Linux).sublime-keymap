@@ -1,4 +1,18 @@
 [
 	{ "keys": ["ctrl+alt+f"], "command": "js_prettier" },
 	{ "keys": ["ctrl+shift+e"], "command": "expand_without_children" },
+	{
+		"keys": ["ctrl+space"],
+		"command": "insert_best_completion",
+		"args": {
+			"default": "\t",
+			"exact": true
+		}
+	},
+	{
+		"keys": ["ctrl+'"],
+		"command": "show_panel",
+		"args": { "panel": "console", "toggle": true }
+	},
+	{ "keys": ["ctrl+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": true} },
 ]
