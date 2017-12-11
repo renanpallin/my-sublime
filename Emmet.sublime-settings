@@ -110,7 +110,10 @@
 			"extends": "html",
 			"profile": "xml",
 			"snippets": {
-				"Link": "<Link to=\"${1}\">${2}</Link>"
+				"Link": "<Link to=\"${1}\">${2}</Link>",
+				"Redirect": "<Redirect to=\"${1}\" />",
+				"button": "<button onClick={e => ${1}(e)}>${2}</button>",
+				"Button": "<Button onClick={e => ${1}(e)}>${2}</Button>",
 			}
 		},
 
