@@ -18,7 +18,7 @@
 		"*.css"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Highlighter/themes/Dracula EJS.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"folder_exclude_patterns":
 	[
 		"node_modules",
