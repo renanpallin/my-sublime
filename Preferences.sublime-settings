@@ -18,13 +18,17 @@
 		"*.css"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/Dracula EJS.tmTheme",
 	"folder_exclude_patterns":
 	[
 		"node_modules",
 		".git",
 		".sass-cache",
-		"__pycache__"
+		"__pycache__",
+		"build",
+		"build/*",
+		"*hot*",
+		"*bundle*"
 	],
 	"font_options":
 	[
