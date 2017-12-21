@@ -18,7 +18,7 @@
 		"*.css"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"folder_exclude_patterns":
 	[
 		"node_modules",
@@ -28,7 +28,9 @@
 		"build",
 		"build/*",
 		"*hot*",
-		"*bundle*"
+		"bundle*",
+		"*.hot-update*",
+		"public/bundle.js"
 	],
 	"font_options":
 	[
@@ -53,7 +55,7 @@
 	"material_theme_compact_sidebar": true,
 	"overlay_scroll_bars": "enabled",
 	"tab_size": 4,
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }
