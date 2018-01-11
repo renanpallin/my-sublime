@@ -1,0 +1,11 @@
+{
+	"cmd": ["node", "$file"],
+	"variants": [
+		{
+			"name": "Run with babel",
+        	// "cmd": ["babel", "$file"],
+        	"shell_cmd": "babel $file | tee | node",
+        	"shell": true
+	    },
+	]
+}
