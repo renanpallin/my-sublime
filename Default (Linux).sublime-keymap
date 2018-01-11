@@ -15,4 +15,5 @@
 		"args": { "panel": "console", "toggle": true }
 	},
 	{ "keys": ["ctrl+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": true} },
+	{ "keys": ["ctrl+j", "ctrl+s"], "command": "node_preview" },
 ]
