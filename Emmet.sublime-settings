@@ -125,6 +125,9 @@
 	"preferences": {
 		// "css.valueSeparator": ": ",
 		// "css.propertyEnd": ";"
+
+		// [BETA] Vamos ver se eu me acostumo com isso
+		"css.intUnit": "%"
 	},
 
 	// Output profiles for syntaxes
