@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+import { StyleSheet, View, Text } from 'react-native';
+
+const ${1:${TM_FILENAME/(.+)(\.(js|jsx))/\1/}} = ({ ${2} }) => (
+	<View>
+		${0}
+	</View>
+);
+
+const styles = StyleSheet.create({
+
+})
+
+export default ${1:${TM_FILENAME/(.+)(\.(js|jsx))/\1/}};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
