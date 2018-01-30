@@ -9,7 +9,8 @@ class NodePreviewCommand(sublime_plugin.TextCommand):
 			line = self.view.line(sel)
 
 			js = self.view.substr(line).strip()
-			cmd = ['node', '-e'] + [("console.log({0})".format(js) if not js.startswith('console') else js)]
+			# cmd = ['node', '-e'] + [("console.log({0})".format(js) if not js.startswith('console') else js)]
+			cmd = ['node', '-e'] + [js]
 
 			print('---- exec', cmd)
 			p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
