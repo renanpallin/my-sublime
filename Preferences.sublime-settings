@@ -1,6 +1,7 @@
 {
 	"always_show_minimap_viewport": true,
-	"binary_file_patterns": [
+	"binary_file_patterns":
+	[
 		"*.dds",
 		"*.eot",
 		"*.gif",
@@ -17,21 +18,9 @@
 		"*.css"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
-	"font_options": ["gray_antialias"],
-	"folder_exclude_patterns": [
-		"node_modules",
-		".git",
-		".sass-cache",
-		"__pycache__",
-		"build",
-		// "build/*",
-		"*hot*",
-		"bundle",
-		"public/bundle.js",
-		".vscode"
-	],
-	"file_exclude_patterns": [
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
+	"file_exclude_patterns":
+	[
 		"*.pyc",
 		"*.pyo",
 		"*.exe",
@@ -49,18 +38,40 @@
 		"*.idb",
 		".DS_Store",
 		"*.class",
-		// "*.psd",
-		// "*.db",
 		"*.sublime-workspace",
 		"*.hot-update*",
 		"bundle*"
 	],
-
-	"font_size": 11,
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		".git",
+		".sass-cache",
+		"__pycache__",
+		"build",
+		"*hot*",
+		"bundle",
+		"public/bundle.js",
+		".vscode"
+	],
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 23,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages": ["Blade Snippets", "Comments Aware Enter", "Vintage"],
-	"indent_guide_options": ["draw_normal", "draw_active"],
+	"ignored_packages":
+	[
+		"Blade Snippets",
+		"Comments Aware Enter",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"material_theme_compact_sidebar": true,
