@@ -3,6 +3,16 @@ import sublime_plugin
 
 import subprocess
 
+"""
+@todo:
+Carregar algumas funções helpers, como:
+const sum = (first, ...rest) =>
+	(first.constructor === Array
+		? first
+		: [first, ...rest])
+	.reduce((a, b) => a + b, 0);
+"""
+
 class NodePreviewCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		for sel in self.view.sel():
