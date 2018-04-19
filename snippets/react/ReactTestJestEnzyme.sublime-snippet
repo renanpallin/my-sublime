@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+import { shallow } from 'enzyme';
+
+import ${1:${TM_FILENAME/(.+)(\.(test\.js|test\.jsx))/\1/}} from '../${2}';
+
+describe('${1:${TM_FILENAME/(.+)(\.(test\.js|test\.jsx))/\1/}} tests', () => {
+	it('Renders ${3}', () => {
+		const ${1:${TM_FILENAME/(.+)(\.(test\.js|test\.jsx))/\l$1/}} = shallow(<${1:${TM_FILENAME/(.+)(\.(test\.js|test\.jsx))/\1/}} />)
+
+	});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
