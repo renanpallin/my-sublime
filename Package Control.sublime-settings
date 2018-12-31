@@ -1,5 +1,22 @@
 {
 	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl",
+			"urllib",
+			"wget"
+		],
+		"osx":
+		[
+			"urllib"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
 	"in_process_packages":
 	[
 	],
