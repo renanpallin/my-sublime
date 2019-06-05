@@ -53,7 +53,9 @@
 		"*hot*",
 		"bundle",
 		"public/bundle.js",
-		".vscode"
+		".vscode",
+		"dist",
+		"dist-server"
 	],
 	"font_options":
 	[
